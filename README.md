@@ -54,8 +54,8 @@ Type=simple
 [Install]
 WantedBy=multi-user.target
 ```
-开启服务`sudo systemctl start login_njupt.service`
-开启服务自启动 `sudo systemctl enable login_njupt.service`
+开启服务`sudo systemctl start login_njupt.service`  
+开启服务自启动 `sudo systemctl enable login_njupt.service`  
 #### 5、设置脚本定时启动
 使用crontab服务设置脚本定时启动
 `crontab -e`编辑当前用户的crontab文件
