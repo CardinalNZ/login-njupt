@@ -27,11 +27,11 @@ result_return="\"result\":1"
 sign_parameter=""
 signed_in_title="注销页"
 ```
-`login_IP`：校园网登录IP
-`not_sign_in_title`：登录界面的title
-`result_return`：请求URL的返回信息，例如，'“result”:1'
-`sign_parameter`：请求URL的文本链接
-`signed_in_title`：登录成功界面的title
+`login_IP`：校园网登录IP  
+`not_sign_in_title`：登录界面的title  
+`result_return`：请求URL的返回信息，例如，'“result”:1'  
+`sign_parameter`：请求URL的文本链接  
+`signed_in_title`：登录成功界面的title  
 ### 3、保存脚本
 修改完成后，`chmod +777`修改脚本权限，执行脚本并查看登录情况
 如果因脚本格式失败可以使用`dox2unix login_njupt.sh`修改为Linux格式
