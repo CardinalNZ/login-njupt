@@ -1,6 +1,6 @@
 # login-njupt
 [(理论上)各大高校都适用的 全平台校园网自动登录实现方法 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv16042718/)
-关于安卓、ios和Windows的自动登录方法，上面的链接已经详细写了，本人因自建NAS的需求补充一个Linux的shell脚本
+关于安卓、ios和Windows的自动登录方法，上面的链接已经详细写了，本人因自建NAS的需求补充一个用于Linux的shell脚本
 ## 一、获取校园网信息
 浏览器打开校园网登陆页面，按F12打开开发人员工具
 ![1](attachments/Pasted%20image%2020241023113500.png)
