@@ -33,7 +33,7 @@ signed_in_title="注销页"
 `sign_parameter`：请求URL的文本链接
 `signed_in_title`：登录成功界面的title
 ### 3、保存脚本
-修改完成后，`chmod +777`修改脚本权限，执行脚本并查看登录情况
+修改完成后，`chmod +x`修改脚本权限，执行脚本并查看登录情况
 如果因脚本格式失败可以使用`dox2unix login_njupt.sh`修改为Linux格式
 #### 4、设置脚本开机自启动
 在/etc/systemd/system目录下创建login_njupt.service文件
@@ -61,5 +61,5 @@ WantedBy=multi-user.target
 `crontab -e`编辑当前用户的crontab文件
 按照格式添加自启动时间，这里设置每天0点启动一词
 ```
-0 0 * * * /root/login_njupt.sh ##位置
+*/10 * * * * * /bin/bash /root/login_njupt.sh ##每10分钟启动一次
 ```
