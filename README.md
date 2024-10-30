@@ -61,5 +61,5 @@ WantedBy=multi-user.target
 `crontab -e`编辑当前用户的crontab文件
 按照格式添加自启动时间，这里设置每天0点启动一词
 ```
-0 0 * * * sh login_njupt.sh ##位置
+0 0 * * * /root/login_njupt.sh ##位置
 ```
